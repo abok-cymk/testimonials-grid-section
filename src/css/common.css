@@ -1,0 +1,59 @@
+:root {
+  --font-family: "Barlow Semi Condensed", sans-serif;
+  --fw-500: 500;
+  --fw-600: 600;
+
+  /* Utilities */
+  --box-shadow: 0px 10px 28px 8px rgba(0, 0, 0, 0.1);
+
+  /* Neutrals */
+  --white: hsl(0, 0%, 100%);
+  --bg-body: hsl(0, 0%, 96%);
+
+  /* Daniel Clifford */
+  --bg-daniel: hsl(263, 55%, 52%); /* Bg */
+  --daniel-heading: hsl(300, 100%, 99%);
+  --p-daniel: hsl(285, 100%, 92%); /* Paragraph */
+  --daniel-name: hsl(280, 100%, 90%); /* Daniel Name */
+  --ring-img-daniel: hsl(272, 28%, 59%);
+
+  /* Jonathan Walters */
+  --bg-jonathan: hsl(219, 19%, 35%);
+  --p-jonathan: hsl(209, 23%, 82%);
+  --jonathan-name: hsl(206, 26%, 89%);
+  --jonathan-heading: hsl(180, 100%, 100%);
+
+  /* Kira Whittle */
+  --kira-heading: hsl(220, 10%, 34%);
+  --p-kira: hsl(224, 4%, 51%);
+  --kira-name: hsl(216, 6%, 47%);
+
+  /* Jeanette Harmon */
+  --jeanette-heading: hsl(220, 15%, 32%);
+  --jeanette-name: hsl(216, 4%, 46%);
+  --p-jeanette: hsl(240, 6%, 57%);
+
+  /* Patrick Abrams */
+  --bg-patrick: hsl(222, 29%, 14%);
+  --patrick-heading: hsl(218, 9%, 83%);
+  --p-patrick: hsl(215, 16%, 79%);
+  --patrick-name: hsl(206, 11%, 88%);
+  --ring-img-patrick: hsl(263, 57%, 21%);
+}
+
+body {
+  font-family: var(--font-family);
+  display: grid;
+  place-items: center;
+  background-color: var(--bg-body);
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
