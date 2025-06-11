@@ -8,5 +8,5 @@ export default defineConfig({
     server: {
         port: 3000,
     },
-    base: "/testimonials-grid-section-main/"
+    base: "/testimonials-grid-section/"
 })
